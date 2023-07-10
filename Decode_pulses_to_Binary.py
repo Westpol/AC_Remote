@@ -1,5 +1,5 @@
 
-with open("Off_Pulses.txt", "r") as pulseData:
+with open("On_Pulses.txt", "r") as pulseData:
     pulses = pulseData.readline().split(",")
 
 pulsesClean = []
